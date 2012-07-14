@@ -6,7 +6,7 @@ This project will supply factory_boy classes for each model Django ships.  The f
 
 See ``factory_boy`` for detailed docs, but all fields are given default values which can be overriden by passing keyword arguments to the constructor.  For example::
 
-    from django_factoryboy.auth import UserF
+    from django_factory_boy.auth import UserF
     user = UserF(first_name="test")
 
 would result in a saved ``User`` instance whose ``first_name`` is set to "test".
